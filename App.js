@@ -210,7 +210,7 @@ class App extends React.Component {
           <StatusBar barStyle="dark-content" />
           <WebView
             style={styles.WebViewStyle}
-            source={{ uri: 'https://powerva.microsoft.com/' }}
+            source={{ uri: 'https://covidein.azurewebsites.net' }}
             javaScriptEnabled={true}
             domStorageEnabled={true}
             //View to show while loading the webpage
