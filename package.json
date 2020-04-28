@@ -1,0 +1,41 @@
+{
+  "name": "newWebView",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freakycoder/react-native-helpers": "^0.1.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-app-intro-slider": "^4.0.2",
+    "react-native-dynamic-vector-icons": "^0.2.1",
+    "react-native-get-random-values": "^1.3.1",
+    "react-native-improved-text-input": "0.0.1",
+    "react-native-login-screen": "^0.3.7",
+    "react-native-render-html": "^4.2.0",
+    "react-native-spinkit": "^1.5.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^9.2.1",
+    "react-native-windows": "^0.61.0-beta.58"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/runtime": "7.9.2",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "^5.0.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
